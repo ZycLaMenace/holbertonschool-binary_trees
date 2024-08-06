@@ -38,6 +38,7 @@
 
 # main files
 *-main.c
+1-left
 
 # test files
 test-*
