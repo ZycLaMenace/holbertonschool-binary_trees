@@ -24,7 +24,7 @@ Binary trees - A hierarchical data structure where each node has at most two chi
 ##### Command for compilation
 ``"gcc -Wall -Wextra -Werror``
 
-Here is the requirement you will need to use our function _printf :
+Here is the requirement you will need to use/have :
 
 - Ubuntu 20.04 LTS using gcc
 - Compilation flags: -Wall -Wextra -Werror
