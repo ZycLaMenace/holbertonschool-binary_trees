@@ -8,7 +8,7 @@ Binary trees - A hierarchical data structure where each node has at most two chi
 
 ## Sumamry
 
-- [Binary trees](#Binary trees)
+- [Binary trees](#Binarytrees)
 
 - [Description](#Description)
 
@@ -33,7 +33,7 @@ Here is the requirement you will need to use our function _printf :
 
 ## Description
 
-*Binary Tree : A hierarchical data structure where each node has at most two children, known as the left child and the right child. It is used for various applications including expression parsing and data organization.
+* Binary Tree : A hierarchical data structure where each node has at most two children, known as the left child and the right child. It is used for various applications including expression parsing and data organization.
 ## Examples
 
 ```css
