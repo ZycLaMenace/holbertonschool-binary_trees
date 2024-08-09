@@ -1,4 +1,6 @@
 #include "binary_trees.h"
+#include <stdlib.h>
+
 /**
  * binary_tree_is_complete - Checks if a binary tree is complete
  * @tree: Pointer to the root node of the tree to check
@@ -31,13 +33,18 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 				free(queue);
 				return (0);
 			}
+			if (rear >= size)
+			{
+				size *= 2;
+				queue = realloc(queue, size * sizeof(*queue));
+				if (!queue)
+					return (0);
+			}
 			queue[rear++] = node->left;
 			queue[rear++] = node->right;
 		}
 		else
-		{
 			flag = 1;
-		}
 	}
 	free(queue);
 	return (1);
